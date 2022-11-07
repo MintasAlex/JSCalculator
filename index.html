@@ -1,19 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>Calculator</title>
-        <link rel="stylesheet" href="style.css">
-        <script src="script.js"></script>
-    </head>
 
-    <body>
-        <header>
-            <h1>JS Calculator</h1>
-        </header>
+<head>
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+</head>
 
+<body>
+    <header>
+        <h1>JS Calculator</h1>
+    </header>
+
+    <!-- <div id="calculator"> -->
         <div class="calculator-main-container">
             <div id="display">
-
+                <output class="user-input" type="text" id="user-input">0</output>
+                <output class="result" type="text" id="result">&nbsp;</output>
             </div>
             <div id="buttons-menu">
                 <button id="ce-button">CE</button>
@@ -32,15 +35,16 @@
                 <button id="2-button">2</button>
                 <button id="3-button">3</button>
                 <button id="plus-button">+</button>
-                <div id ="buttons-menu-last">
-                    <button id="0-button">0</button>
-                    <button id="period-button">.</button>
-                    <button id="equals-button">=</button>
-                </div>
+                <button id="0-button">0</button>
+                <button id="period-button">.</button>
+                <button id="equals-button">=</button>
             </div>
         </div>
-        <footer>
-            Made by <a href="https://github.com/MintasAlex">MintasAlex</a> | <a href="https://github.com/MintasAlex/JSCalculator">Source</a>
-        </footer>
-    </body>
+    <!-- </div> -->
+    <footer>
+        Made by <a href="https://github.com/MintasAlex">MintasAlex</a> |
+        <a href="https://github.com/MintasAlex/JSCalculator">Source</a>
+    </footer>
+</body>
+
 </html>
