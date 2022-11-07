@@ -4,7 +4,7 @@
 <head>
     <title>Calculator</title>
     <link rel="stylesheet" href="style.css" />
-    <script src="script.js"></script>
+    <script src="script.js" defer></script>
 </head>
 
 <body>
@@ -13,33 +13,33 @@
     </header>
 
     <!-- <div id="calculator"> -->
-        <div class="calculator-main-container">
-            <div id="display">
-                <output class="user-input" type="text" id="user-input">0</output>
-                <output class="result" type="text" id="result">&nbsp;</output>
-            </div>
-            <div id="buttons-menu">
-                <button id="ce-button">CE</button>
-                <button id="c-button">C</button>
-                <button id="mod-button">%</button>
-                <button id="div-button">/</button>
-                <button id="7-button">7</button>
-                <button id="8-button">8</button>
-                <button id="9-button">9</button>
-                <button id="multiply-button">X</button>
-                <button id="4-button">4</button>
-                <button id="5-button">5</button>
-                <button id="6-button">6</button>
-                <button id="minus-button">-</button>
-                <button id="1-button">1</button>
-                <button id="2-button">2</button>
-                <button id="3-button">3</button>
-                <button id="plus-button">+</button>
-                <button id="0-button">0</button>
-                <button id="period-button">.</button>
-                <button id="equals-button">=</button>
-            </div>
+    <div class="calculator-main-container">
+        <div id="display">
+            <output class="user-input" type="text" id="user-input">0</output>
+            <output class="result" type="text" id="result">&#160;</output>
         </div>
+        <div id="buttons-menu">
+            <button id="ce-button">CE</button>
+            <button id="c-button">C</button>
+            <button class="operatorBtn" id="mod-button">%</button>
+            <button class="operatorBtn" id="div-button">/</button>
+            <button class="digitBtn" id="button7">7</button>
+            <button class="digitBtn" id="button8">8</button>
+            <button class="digitBtn" id="button9">9</button>
+            <button class="operatorBtn" id="multiply-button">X</button>
+            <button class="digitBtn" id="button4">4</button>
+            <button class="digitBtn" id="button5">5</button>
+            <button class="digitBtn" id="button6">6</button>
+            <button class="operatorBtn" id="minus-button">-</button>
+            <button class="digitBtn" id="button1">1</button>
+            <button class="digitBtn" id="button2">2</button>
+            <button class="digitBtn" id="button3">3</button>
+            <button class="operatorBtn" id="plus-button">+</button>
+            <button class="digitBtn" id="button0">0</button>
+            <button id="period-button">.</button>
+            <button id="equals-button">=</button>
+        </div>
+    </div>
     <!-- </div> -->
     <footer>
         Made by <a href="https://github.com/MintasAlex">MintasAlex</a> |
